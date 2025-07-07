@@ -4,7 +4,7 @@ Este é um projeto acadêmico desenvolvido como parte da disciplina de Análise 
 
 📂 Dataset
 
-Fonte: Kaggle – League of Legends Patch 25.11 Champion Data (2025)
+Fonte: Kaggle – League of Legends Patch 25.11 Champion Data (2025) - https://www.kaggle.com/datasets/laurenainsleyhaines/patch-25-11-league-of-legends-champion-data-2025
 Contém dados detalhados sobre campeões do jogo, como:
 Dano base, HP base, ataque por segundo
 Armadura, resistência mágica, mana
@@ -15,7 +15,7 @@ Role (classe), escalabilidade, entre outros
 Realizar análise exploratória de dados (EDA)
 Identificar campeões com atributos fora do padrão
 Explorar correlações entre atributos ofensivos e defensivos
-Aplicar clusterização para categorizar campeões por estilo
+Prever taxas de vitória de campeões
 Criar visualizações interativas para facilitar a leitura dos dados
 
 🛠️ Ferramentas Utilizadas
@@ -33,15 +33,8 @@ Correlações entre variáveis: mapa de calor e insights
 Clusterização com K-Means: agrupamento baseado em atributos
 Dashboard interativo com Plotly: visualizações filtráveis por campeão e atributo
 
-📈 Exemplos de Insights
+Restrições:
+Dados limitados ao patch 25.11 (2025)
+Apenas dados de campeões, sem informações de jogadores ou partidas
+Estatísticas agregadas, não por partida individual
 
-Campeões como X, Y, Z têm os maiores valores de dano base
-Roles como Tank possuem maior HP e menor Attack Speed
-Correlações fracas entre dano e defesa sugerem especializações
-Clusterização dividiu campeões em perfis como ofensivo, balanceado e suporte
-
-📚 Referências
-
-Kaggle Dataset
-League of Legends Wiki
-Repositórios da trilha "mvp-analise-dados" da PUC-Rio
